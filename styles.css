@@ -64,6 +64,22 @@ body {
     border-radius: 5px;
 }
 
+.form-control small {
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.form-control.error input {
+    border: 3px solid red;
+}
+
+.form-control.success input {
+    border: 3px solid green;
+}
+
 .register-form button {
     padding: 5px;
     font-size: 17px;
