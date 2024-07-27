@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #313131;
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+
+.message {
+    margin: 50px 40px;
+}
+.message h2 {
+    margin-bottom: 10px;
+}
+
+.register {
+    margin: 20px 40px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+
+
+.profile-pic {
+    border: 2px solid;
+    border-radius: 10px;
+    
+}
+.register-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+
+.register-form h2 {
+    margin-bottom: 10px;
+}
+
+
+.form-control {
+    margin: 10px 0;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.register-form button {
+    padding: 5px;
+    font-size: 17px;
+    width: 100%;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.goal {
+    margin: 50px 40px;
+}
+
+.goal h2 {
+    margin-bottom: 10px;
+}
+
+strong {
+    background-color: yellow;
+    color: black;
+}
